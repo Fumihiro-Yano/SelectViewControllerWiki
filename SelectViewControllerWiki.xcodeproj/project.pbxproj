@@ -18,6 +18,10 @@
 		E7B30F891CAFBB670063056F /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30F881CAFBB670063056F /* ViewController3.swift */; settings = {ASSET_TAGS = (); }; };
 		E7B30F8B1CAFBB8B0063056F /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30F8A1CAFBB8B0063056F /* ViewController4.swift */; settings = {ASSET_TAGS = (); }; };
 		E7B30F8D1CAFBBAA0063056F /* ViewController5.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30F8C1CAFBBAA0063056F /* ViewController5.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B30F8F1CAFBE580063056F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30F8E1CAFBE580063056F /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B30F911CAFBEB80063056F /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B30F901CAFBEB80063056F /* TableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		E7B30F931CAFBF860063056F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B30F921CAFBF860063056F /* TableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		E7B30F951CAFBF960063056F /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7B30F941CAFBF960063056F /* TableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		E7B30F881CAFBB670063056F /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 		E7B30F8A1CAFBB8B0063056F /* ViewController4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		E7B30F8C1CAFBBAA0063056F /* ViewController5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController5.swift; sourceTree = "<group>"; };
+		E7B30F8E1CAFBE580063056F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E7B30F901CAFBEB80063056F /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		E7B30F921CAFBF860063056F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E7B30F941CAFBF960063056F /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +116,10 @@
 				E7B30F831CAFBA6E0063056F /* Model */,
 				E7B30F541CAFB8980063056F /* AppDelegate.swift */,
 				E7B30F561CAFB8980063056F /* ViewController.swift */,
+				E7B30F8E1CAFBE580063056F /* TableViewController.swift */,
+				E7B30F901CAFBEB80063056F /* TableViewController.xib */,
+				E7B30F921CAFBF860063056F /* TableViewCell.swift */,
+				E7B30F941CAFBF960063056F /* TableViewCell.xib */,
 				E7B30F861CAFBB340063056F /* ViewController2.swift */,
 				E7B30F881CAFBB670063056F /* ViewController3.swift */,
 				E7B30F8A1CAFBB8B0063056F /* ViewController4.swift */,
@@ -251,6 +263,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7B30F911CAFBEB80063056F /* TableViewController.xib in Resources */,
+				E7B30F951CAFBF960063056F /* TableViewCell.xib in Resources */,
 				E7B30F5F1CAFB8980063056F /* LaunchScreen.storyboard in Resources */,
 				E7B30F5C1CAFB8980063056F /* Assets.xcassets in Resources */,
 			);
@@ -280,6 +294,8 @@
 				E7B30F891CAFBB670063056F /* ViewController3.swift in Sources */,
 				E7B30F8B1CAFBB8B0063056F /* ViewController4.swift in Sources */,
 				E7B30F571CAFB8980063056F /* ViewController.swift in Sources */,
+				E7B30F931CAFBF860063056F /* TableViewCell.swift in Sources */,
+				E7B30F8F1CAFBE580063056F /* TableViewController.swift in Sources */,
 				E7B30F871CAFBB340063056F /* ViewController2.swift in Sources */,
 				E7B30F851CAFBAFF0063056F /* TestViewControllerHandler.swift in Sources */,
 				E7B30F551CAFB8980063056F /* AppDelegate.swift in Sources */,
