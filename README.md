@@ -1,0 +1,2 @@
+# SelectViewControllerWiki
+enumを使ってHandlerを作成しViewControllerを振り分けるテストのメモ
